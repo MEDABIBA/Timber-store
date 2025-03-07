@@ -1,0 +1,27 @@
+.search-pannel{
+ height: 48px;
+ width: 274px; 
+ border: 1px solid, #E0E3EE;  
+ border-radius: 10px;
+ display: flex  ;
+ justify-content: space-between;
+
+    .search-pannel-input{
+    border-radius: 10px;
+    padding-left: 20px;
+    flex: 1;
+    border: none;
+    outline: none;  
+    }
+
+    .search-pannel-btn{
+    cursor: pointer;
+    margin: 4px;
+    height: 20px;
+    width: 20px;
+    background-color: #2D3B87;
+    border-radius: 10px;
+    padding: 10px;
+    color: #2d3b87;
+    }
+}
